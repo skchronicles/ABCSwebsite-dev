@@ -1,4 +1,4 @@
-# Upcoming Journal Club & TechDev Seminars
+## Upcoming Journal Club & TechDev Seminars
 
 **PARTICIPATING GROUPS:**  `CCBR`, `NCBR`, `SF-IFX`, `RNA-BIOLOGY`  
 **TIME:** Wednesdays 1-2 PM  
@@ -8,10 +8,22 @@
 **WebEx Information:**
 https://cbiit.webex.com/cbiit/e.php?MTID=m8e4cc08aae26be936415c20896d4867a 
 
-| Host Key | Meeting Password | Meeting Number (access code) |   
-| ------ | ------ | ------ |  
-| `185923` | `Ccbr2017*` | `859 888 215` | 
 
+| Date | Meeting Type | Speaker | Topic | 
+| ------ | ------ | ------ | ------ |
+| 11/21/18 | **Cancelled** | **Cancelled** | CCBR_NCBR Potluck Lunch |
+| 11/28/18 | Journal Club | Mayank | TBA |
+| 12/5/18 | TechDev | Vishal, Skyler, Tovah, Alexei | ChIP-seq + ATAC-seq |
+| 12/12/18 | Journal Club | Paul | TBA |
+| 12/19/18 | TechDev | Vishal, Skyler, Nathan, Paul | RNA-seq + miR-seq |
+| 12/26/18 | Journal Club | Tovah | TBA |
+| 1/2/19 | TechDev | Justin, Keyur | Exomeseq + WGS |
+| 1/9/19 | Journal Club | Arun | TBA |
+| 1/16/19 | TechDev | Abdalla, Vicky | Single-cell  Applications |
+| 1/23/19 | Journal Club | Sue | TBA |
+| 1/30/19 | TechDev | Jack | Long-read technologies |
+
+## Previous Meetings
 
 | Date | Meeting Type | Speaker | Topic | 
 | ------ | ------ | ------ | ------ |
@@ -61,20 +73,3 @@ https://cbiit.webex.com/cbiit/e.php?MTID=m8e4cc08aae26be936415c20896d4867a
 | 10/31/18 | Journal Club | Nathan | TBA |
 | 11/7/18 | **Cancelled** | **Cancelled** | RNA Biology symposium |
 | 11/14/18 | TechDev | Justin, Keyur | Exomeseq + WGS |
-| 11/21/18 | **Cancelled** | **Cancelled** | CCBR_NCBR Potluck Lunch |
-| 11/28/18 | Journal Club | Mayank | TBA |
-| 12/5/18 | TechDev | Vishal, Skyler, Tovah, Alexei | ChIP-seq + ATAC-seq |
-| 12/12/18 | Journal Club | Paul | TBA |
-| 12/19/18 | TechDev | Vishal, Skyler, Nathan, Paul | RNA-seq + miR-seq |
-| 12/26/18 | Journal Club | Tovah | TBA |
-| 1/2/19 | TechDev | Justin, Keyur | Exomeseq + WGS |
-| 1/9/19 | Journal Club | Arun | TBA |
-| 1/16/19 | TechDev | Abdalla, Vicky | Single-cell  Applications |
-| 1/23/19 | Journal Club | Sue | TBA |
-| 1/30/19 | TechDev | Jack | Long-read technologies |
-
-
-
-
-
-
