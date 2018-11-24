@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>ABCS</title>
+<meta name="generator" content="Jekyll v3.7.4" />
+<meta property="og:title" content="ABCS" />
+<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="http://localhost:4000/Calendar.html" />
+<meta property="og:url" content="http://localhost:4000/Calendar.html" />
+<meta property="og:site_name" content="ABCS" />
+<script type="application/ld+json">
+{"@type":"WebPage","headline":"ABCS","url":"http://localhost:4000/Calendar.html","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=eb2a1d203f21e603fe510c4f7ae34744c7a00912">
+    <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+    
+    <!-- Full Calendar-->
+    <link rel='stylesheet' href='../lib/fullcalendar.css' />
+    <script src='../lib/jquery.min.js'></script>
+    <script src='../lib/moment.min.js'></script>
+    <script src='../lib/fullcalendar.js'></script>
+    <script>
+
+    $(document).ready(function() {
+
+    $('#calendar').fullCalendar({
+      eventRender : function(event, element) {element[0].title =  'Topic: ' + event.description + '\n' + 
+                                                                  'Speaker: '     +  event.speaker},
+      editable: true,
+      eventLimit: true,
+      events: [
+        {
+        title: 'Journal Club',
+        start: '2018-01-03',
+        speaker: 'Parthav',
+        description: 'TBA',
+        },
+        {
+        title: 'TechDev',
+        start: '2018-01-10',
+        speaker: 'Vishal, Skyler, Nathan, Alexei',
+        description: 'ChIP-Seq + miRSeq',
+        },
+        {
+        title: 'Training',
+        start: '2018-01-17',
+        speaker: 'HPC Staff',
+        description: 'HPC DME API updates: demo',
+        },
+        {
+        title: 'Journal Club',
+        start: '2018-01-24',
+        speaker: 'Abdalla',
+        description: 'TBA',
+        },
+        {
+        title: 'Cancelled',
+        start: '2018-01-31',
+        speaker: 'Cancelled',
+        description: 'Cancelled',
+        color: '#ff3333',
+        },
+        {
+        title: 'TechDev',
+        start: '2018-02-07',
+        speaker: 'Vishal, Skyler',
+        description: 'RNA-Seq + Microarray',
+        },
+        {
+        title: 'Journal Club',
+        start: '2018-02-14',
+        speaker: 'Jack',
+        description: 'TBA',
+        },
+        {
+        title: 'TechDev',
+        start: '2018-02-21',
+        speaker: 'Justin',
+        description: 'Exomeseq + WGS',
+        },
+        {
+        title: 'Journal Club',
+        start: '2018-02-28',
+        speaker: 'Chunhua',
+        description: 'TBA',
+        },
+        {
+        title: 'Cancelled',
+        start: '2018-03-07',
+        speaker: 'Cancelled',
+        description: 'Cancelled',
+        color: '#ff3333',
+        },
+        {
+        title: 'TechDev',
+        start: '2018-03-14',
+        speaker: 'Yongmei',
+        description: 'Structural variation: Pt I',
+        },
+        {
+        title: 'Cancelled',
+        start: '2018-03-21',
+        speaker: 'Cancelled',
+        description: 'Cancelled',
+        color: '#ff3333',
+        },
+        {
+        title: 'Journal Club',
+        start: '2018-03-28',
+        speaker: 'Alexei',
+        description: 'TBA',
+        },
+        {
+        title: 'TechDev',
+        start: '2018-04-04',
+        speaker: 'Yongmei',
+        description: 'Structural variation: Pt II',
+        },
+        {
+        title: 'Training',
+        start: '2018-04-11',
+        speaker: 'Randy',
+        description: 'TidyVerse Overview',
+        },
+        {
+        title: 'Journal Club',
+        start: '2018-04-18',
+        speaker: 'Yongmei',
+        description: 'TBA',
+        },
+        {
+        title: 'Training',
+        start: '2018-04-25',
+        speaker: 'Guest Speaker',
+        description: 'Partek Flow training: single-cell RNASeq',
+        },
+        {
+        title: 'Journal Club',
+        start: '2018-05-02',
+        speaker: 'Ying',
+        description: 'TBA',
+        },
+        {
+        title: 'TechDev',
+        start: '2018-05-09',
+        speaker: 'Vishal, Skyler, Nathan, Alexei',
+        description: 'ChIP-Seq + miRSeq',
+        },
+        {
+        title: 'Journal Club',
+        start: '2018-05-16',
+        speaker: 'Rich',
+        description: 'TBA',
+        },
+        {
+        title: 'TechDev',
+        start: '2018-05-23',
+        speaker: 'Vishal, Skyler',
+        description: 'RNA-Seq + Microarray',
+        },
+        {
+        title: 'Journal Club',
+        start: '2018-05-30',
+        speaker: 'Justin',
+        description: 'TBA',
+        },
+        {
+        title: 'TechDev',
+        start: '2018-06-06',
+        speaker: 'Justin',
+        description: 'Exomeseq + WGS',
+        },
+        {
+        title: 'Journal Club',
+        start: '2018-06-13',
+        speaker: 'Ajeet',
+        description: 'TBA',
+        },
+        {
+        title: 'TechDev',
+        start: '2018-06-20',
+        speaker: 'Nikhil',
+        description: 'Single-cell  Applications',
+        },
+        {
+        title: 'Journal Club',
+        start: '2018-06-27',
+        speaker: 'George',
+        description: 'TBA',
+        },
+        {
+        title: 'Cancelled',
+        start: '2018-07-04',
+        speaker: 'Cancelled',
+        description: 'Cancelled',
+        color: '#ff3333',
+        },
+        {
+        title: 'Cancelled',
+        start: '2018-07-11',
+        speaker: 'Cancelled',
+        description: 'Cancelled',
+        color: '#ff3333',
+        },
+        {
+        title: 'Other',
+        start: '2018-07-18',
+        speaker: 'SF Staff',
+        description: 'Sequencing Facility Tour',
+        },
+        {
+        title: 'Journal Club',
+        start: '2018-07-25',
+        speaker: 'Vishal',
+        description: 'TBA',
+        },
+        {
+        title: 'Cancelled',
+        start: '2018-08-01',
+        speaker: 'Cancelled',
+        description: 'Cancelled',
+        color: '#ff3333',
+        },
+        {
+        title: 'TechDev',
+        start: '2018-08-08',
+        speaker: 'Justin',
+        description: 'Structural variation',
+        },
+        {
+        title: 'Journal Club',
+        start: '2018-08-15',
+        speaker: 'Tsai-Wei',
+        description: 'TBA',
+        },
+        {
+        title: 'Journal Club',
+        start: '2018-08-22',
+        speaker: 'Josh',
+        description: 'TBA',
+        },
+        {
+        title: 'TechDev',
+        start: '2018-08-29',
+        speaker: 'Vishal, Skyler, Nathan, Alexei',
+        description: 'ChIP-Seq + miRSeq',
+        },
+        {
+        title: 'TechDev',
+        start: '2018-09-05',
+        speaker: 'Vishal, Skyler',
+        description: 'RNA-Seq + Microarray',
+        },
+        {
+        title: 'Journal Club',
+        start: '2018-09-12',
+        speaker: 'George',
+        description: 'TBA',
+        },
+        {
+        title: 'TechDev',
+        start: '2018-09-19',
+        speaker: 'Justin',
+        description: 'Structural variation',
+        },
+        {
+        title: 'TechDev',
+        start: '2018-09-26',
+        speaker: 'Guest Speaker',
+        description: '10X CNV pipeline presentation',
+        },
+        {
+        title: 'TechDev',
+        start: '2018-10-03',
+        speaker: 'Abdalla, Vicky',
+        description: 'Single-cell  Applications',
+        },
+        {
+        title: 'Journal Club',
+        start: '2018-10-10',
+        speaker: 'Maggie',
+        description: 'Reproducibility: Pt I',
+        },
+        {
+        title: 'Journal Club',
+        start: '2018-10-17',
+        speaker: 'Maggie',
+        description: 'Reproducibility: Pt II',
+        },
+        {
+        title: 'TechDev',
+        start: '2018-10-24',
+        speaker: 'Jack',
+        description: 'Long-read technologies',
+        },
+        {
+        title: 'Journal Club',
+        start: '2018-10-31',
+        speaker: 'Nathan',
+        description: 'TBA',
+        },
+        {
+        title: 'Cancelled',
+        start: '2018-11-07',
+        speaker: 'Cancelled',
+        description: 'RNA Biology symposium',
+        color: '#ff3333',
+        },
+        {
+        title: 'TechDev',
+        start: '2018-11-14',
+        speaker: 'Justin, Keyur',
+        description: 'Exomeseq + WGS',
+        },
+        {
+        title: 'Cancelled',
+        start: '2018-11-21',
+        speaker: 'Cancelled',
+        description: 'CCBR_NCBR Potluck Lunch',
+        color: '#ff3333',
+        },
+        {
+        title: 'Journal Club',
+        start: '2018-11-28',
+        speaker: 'Mayank',
+        description: 'TBA',
+        },
+        {
+        title: 'TechDev',
+        start: '2018-12-05',
+        speaker: 'Vishal, Skyler, Tovah, Alexei',
+        description: 'ChIP-seq + ATAC-seq',
+        },
+        {
+        title: 'Journal Club',
+        start: '2018-12-12',
+        speaker: 'Paul',
+        description: 'TBA',
+        },
+        {
+        title: 'TechDev',
+        start: '2018-12-19',
+        speaker: 'Vishal, Skyler, Nathan, Paul',
+        description: 'RNA-seq + miR-seq',
+        },
+        {
+        title: 'Journal Club',
+        start: '2018-12-26',
+        speaker: 'Tovah',
+        description: 'TBA',
+        },
+        {
+        title: 'TechDev',
+        start: '2019-01-02',
+        speaker: 'Justin, Keyur',
+        description: 'Exomeseq + WGS',
+        },
+        {
+        title: 'Journal Club',
+        start: '2019-01-09',
+        speaker: 'Arun',
+        description: 'TBA',
+        },
+        {
+        title: 'TechDev',
+        start: '2019-01-16',
+        speaker: 'Abdalla, Vicky',
+        description: 'Single-cell  Applications',
+        },
+        {
+        title: 'Journal Club',
+        start: '2019-01-23',
+        speaker: 'Sue',
+        description: 'TBA',
+        },
+        {
+        title: 'TechDev',
+        start: '2019-01-30',
+        speaker: 'Jack',
+        description: 'Long-read technologies'
+        }
+      ]
+    });
+
+  });
+
+  </script>
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="http://localhost:4000/">ABCS</a></h1>
+        
+        
+
+        <p></p>
+
+        <p><a href="http://localhost:4000/">About</a></p>
+        <p><a href="Contacts">Contacts</a></p>
+        <p><a href="Seminars">Seminars</a></p>
+        <p><a href="Calendar">Calendar</a></p>
+
+        
+
+        
+        
+      </header>
+      <section>
+
+      	<div id='calendar'></div>
+
+      </section>
+      <footer>
+        
+        <p>This project is maintained by <a href="http://github.com/abcsFrederick">abcsFrederick</a></p>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/assets/js/scale.fix.js"></script>
+    
+  </body>
+</html>
+
