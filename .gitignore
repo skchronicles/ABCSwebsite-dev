@@ -1,2 +1,7 @@
 .DS_Store
+_site/assets/
+_site/fullcalendar/
+_site/old-Calendar.html
+_site/old2-Calendar.html
+fullcalendar/
 
