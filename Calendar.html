@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>ABCS</title>
+<meta name="generator" content="Jekyll v3.7.4" />
+<meta property="og:title" content="ABCS" />
+<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="http://localhost:4000/Calendar.html" />
+<meta property="og:url" content="http://localhost:4000/Calendar.html" />
+<meta property="og:site_name" content="ABCS" />
+<script type="application/ld+json">
+{"@type":"WebPage","headline":"ABCS","url":"http://localhost:4000/Calendar.html","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=eb2a1d203f21e603fe510c4f7ae34744c7a00912">
+    <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+    
+    <!-- Full Calendar-->
+    <link rel='stylesheet' href='../lib/fullcalendar.css' />
+    <script src='../lib/jquery.min.js'></script>
+    <script src='../lib/moment.min.js'></script>
+    <script src='../lib/fullcalendar.js'></script>
+    <script src='../lib/gcal.js'></script>
+    
+    <script>
+	
+    $(document).ready(function() {
+
+    $('#calendar').fullCalendar({
+
+      header: {
+        left: 'prev,next today',
+        center: 'title',
+        right: 'month,basicWeek,listYear'
+      },
+
+      displayEventTime: false, // don't show the time column in list view
+
+      // To make your own Google API key, follow the directions here:
+      // http://fullcalendar.io/docs/google_calendar/
+      googleCalendarApiKey: 'AIzaSyAiypBLKmSppsn3Jp1hr9p79HQkL9_d5kw',
+
+      // US Holidays
+      events: 'abcsfrederick.info_m2749tqmr78m0q16t3tl6e9euc@group.calendar.google.com',
+      eventRender : function(event, element) {element[0].title =  event.description + '\n'},
+      eventClick: function(event) {
+        // opens events in a popup window
+        window.open(event.url, 'gcalevent', 'top=100,width=400,height=400');
+        return false;
+      },
+
+      loading: function(bool) {
+        $('#loading').toggle(bool);
+      }});
+    });
+
+    </script>
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="http://localhost:4000/">ABCS</a></h1>
+        
+        
+
+        <p></p>
+
+        <p><a href="http://localhost:4000/">About</a></p>
+        <p><a href="Contacts">Contacts</a></p>
+        <p><a href="Seminars">Seminars</a></p>
+        <p><a href="Calendar">Calendar</a></p>
+
+        
+
+        
+        
+      </header>
+      <section>
+		<div id='calendar'></div>
+      </section>
+      <footer>
+        
+        <p>This project is maintained by <a href="http://github.com/abcsFrederick">abcsFrederick</a></p>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/assets/js/scale.fix.js"></script>
+    
+  </body>
+</html>
+
