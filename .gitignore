@@ -1,2 +1,8 @@
+*~
+*.bak
 .DS_Store
-
+_site/*
+_site/**
+_site
+fullcalendar/
+fullcalendar/*

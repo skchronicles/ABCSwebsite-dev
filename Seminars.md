@@ -1,4 +1,4 @@
-## Upcoming Journal Club & TechDev Seminars
+# Seminars
 
 **PARTICIPATING GROUPS:**  `CCBR`, `NCBR`, `SF-IFX`, `RNA-BIOLOGY`  
 **TIME:** Wednesdays 1-2 PM  
@@ -8,6 +8,7 @@
 **WebEx Information:**
 https://cbiit.webex.com/cbiit/e.php?MTID=m8e4cc08aae26be936415c20896d4867a 
 
+## Upcoming 
 
 | Date | Meeting Type | Speaker | Topic | 
 | ------ | ------ | ------ | ------ |
@@ -23,7 +24,7 @@ https://cbiit.webex.com/cbiit/e.php?MTID=m8e4cc08aae26be936415c20896d4867a
 | 1/23/19 | Journal Club | Sue | TBA |
 | 1/30/19 | TechDev | Jack | Long-read technologies |
 
-## Previous Meetings
+## Previous
 
 | Date | Meeting Type | Speaker | Topic | 
 | ------ | ------ | ------ | ------ |
