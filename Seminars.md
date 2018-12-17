@@ -2,11 +2,9 @@
 
 **PARTICIPATING GROUPS:**  `CCBR`, `NCBR`, `SF-IFX`, `RNA-BIOLOGY`  
 **TIME:** Wednesdays 1-2 PM  
-**LOCATION:** ATRF D-3001 CONFERENCE ROOM  
-  
-  
-**WebEx Information:**
-https://cbiit.webex.com/cbiit/e.php?MTID=m8e4cc08aae26be936415c20896d4867a 
+**LOCATION:** ATRF D-3001 Conference Room
+**[Join via WebEx](https://cbiit.webex.com/cbiit/e.php?MTID=m8e4cc08aae26be936415c20896d4867a)**
+
 
 ## Upcoming 
 

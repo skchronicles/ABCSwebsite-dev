@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<small>{{ page.date | date: "%-d %B %Y" }}</small>
+<h1>{{ page.title }}</h1>
+
+<p class="view">by {{ page.author | default: "ABCS" }}</p>
+
+{% if post.tags contains "seminars" %}
+**PARTICIPATING GROUPS:**  `CCBR`, `NCBR`, `SF-IFX`, `RNA-BIOLOGY`, or anyone else interested in joining us.
+**TIME:** 1-2 PM  
+**LOCATION:** ATRF D-3001 Conference Room
+**[Join via WebEx](https://cbiit.webex.com/cbiit/e.php?MTID=m8e4cc08aae26be936415c20896d4867a)**
+{% endif %}
+
+{{content}}
+
+{% if page.tags %}
+  <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
+{% endif %}
