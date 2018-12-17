@@ -1,10 +1,16 @@
 # Seminars
 
-**PARTICIPATING GROUPS:**  `CCBR`, `NCBR`, `SF-IFX`, `RNA-BIOLOGY`  
-**TIME:** Wednesdays 1-2 PM  
-**LOCATION:** ATRF D-3001 Conference Room
-**[Join via WebEx](https://cbiit.webex.com/cbiit/e.php?MTID=m8e4cc08aae26be936415c20896d4867a)**
+## Upcoming Seminars
 
+<ul>
+    {% for post in site.posts %}
+    {% if post.categories contains "seminars"%}
+        <li>
+            <a href="{{ "/" | absolute_url }}{{ post.url }}">{{ post.date }}, {{ post.title }}</a>
+        </li>
+    {% endif %}
+    {% endfor %}
+</ul>
 
 ## Upcoming 
 
