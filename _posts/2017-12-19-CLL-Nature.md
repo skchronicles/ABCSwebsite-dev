@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Evolutionary landscap of CLL treated with targeted therapy
+title: Evolutionary landscape of CLL treated with targeted therapy
 author: Landau et al
 categories: [vignettes]
 tags: [CLL, targeted therapy]
 ---
 
-![Putative driver gene mutations and copy number alterations at treatment initiation]({{ "/" | absolute_url }}assets/CLL-Nature.png)
+![Putative driver gene mutations and copy number alterations at treatment initiation]({{ "/" | absolute_url }}assets/CLL-Nature.jpg)
 
 <sup><sub>Putative driver gene mutations and copy number alterations at treatment initiation. **a** Treatment schema, absolute lymphocyte count (ALC) and number of samples per cohort that underwent whole-exome sequencing (WES) and RNA-sequencing at the indicated time points. Box plot shows the median, the interquartile range (IQR), and Tukey whiskers (±1.5 times IQR). **b** Distribution of clonal (black) and subclonal (tan) putative CLL driver mutations and copy number alterations (blue) across the 61 patients<sup>1</sup></sub></sup>
 
