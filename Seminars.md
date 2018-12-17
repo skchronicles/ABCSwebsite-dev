@@ -6,7 +6,7 @@
     {% for post in site.posts %}
     {% if post.categories contains "seminars"%}
         <li>
-            <a href="{{ "/" | absolute_url }}{{ post.url }}">{{ post.date }}, {{ post.title }}</a>
+            <a href="{{ "/" | absolute_url }}{{ post.url }}">{{ post.date | date: "%-d %B %Y"}}, {{ post.title }}</a>
         </li>
     {% endif %}
     {% endfor %}
