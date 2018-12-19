@@ -6,6 +6,6 @@ _site/**
 _site
 fullcalendar/
 fullcalendar/*
-.Rproj.user
-*.Rproj
 .Rhistory
+.Rproj.user/
+*.Rproj
