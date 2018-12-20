@@ -2,11 +2,11 @@
 
 [Jack Collins](mailto:collinja@mail.nih.gov), Advanced Biomedical Computational Science (ABCS) Director
 
-[Raul Cachau](mailto:raul.cachau@nih.gov), Imaging and Visualization Group (IVG)
+[Raul Cachau](mailto:raul.cachau@nih.gov), Biophysics and Structural Biology
 
 [Parthav Jailwala](mailto:parthav.jailwala@nih.gov), CCR Collaborative Bioinformatics Resource (CCBR)
 
-[Randy Johnson](mailto:randall.johnson@nih.gov), Training and Outreach
+[Randy Johnson](mailto:randall.johnson@nih.gov), Statistics, Training and Outreach
 
 [Justin Lack](mailto:justin.lack@nih.gov), NIAID Collaborative Bioinformatics Resource (NCBR)
 
