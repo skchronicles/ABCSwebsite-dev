@@ -5,7 +5,7 @@
     {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
     {% for post in site.posts %}
     {% if post.categories contains "seminars" and post.tags contains "BUF" %}
-    {% unless post.categories contains "statistics for lunch" or post.categories contains "programmers corner" %}
+    {% unless post.tags contains "statistics for lunch" or post.tags contains "programmers corner" %}
         {% capture posttime %}{{ post.date | date: '%s' }}{% endcapture %}
         {% if posttime < nowunix %}
             <li>
