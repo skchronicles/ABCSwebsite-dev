@@ -9,3 +9,4 @@ fullcalendar/*
 .Rhistory
 .Rproj.user/
 *.Rproj
+.Rproj.user
