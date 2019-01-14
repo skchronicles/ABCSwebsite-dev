@@ -8,9 +8,9 @@ tags: [BUF, statistics for lunch]
 location: Bldg 549 Auditorium
 time: 12 - 1 PM
 project: statistics4lunch
-id: 190107
+videoId: 190107
 ---
 
 In this presentation we will explore least squares regression using an intuitive graphical approach. We will also review the assumptions made in linear regression, how to diagnose violations of assumptions, and what to do to fix problems with linear regression models.
 
-{% include googleDrivePlayer.html project=page.project id=page.id %}
+{% include googleDrivePlayer.html project=page.project id=page.videoId %}
