@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Statistics for Lunch: Pivoting works not only during election cycle"
+series: Statistics for Lunch
+title: Pivoting works not only during election cycle
 subtitle: The deadly story of Rofecoxib
 author: Ravi Ravichandran
 categories: [seminars]

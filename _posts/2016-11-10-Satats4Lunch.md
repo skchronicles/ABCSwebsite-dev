@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Statistics for Lunch: Analysis of Covariance"
+series: Statistics for Lunch
+title: Analysis of Covariance
 subtitle: An intuitive graphical approach
 author: Greg Alvord
 categories: [seminars]

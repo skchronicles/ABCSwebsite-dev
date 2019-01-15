@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Statistics for Lunch: Correcting for Multiple Comparisons"
+series: Statistics for Lunch
+title: Correcting for Multiple Comparisons
 subtitle: Why not test every possible association?
 author: George Nelson
 categories: [seminars]

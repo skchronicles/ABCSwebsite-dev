@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Statistics for Lunch: Grahpical Excellence"
+series: Statistics for Lunch
+title: Grahpical Excellence
 subtitle: How to make your data sing
 author: Randy Johnson
 categories: [seminars]

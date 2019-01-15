@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Statistics for Lunch: P-values are Random Variables"
+series: "Statistics for Lunch"
+title: P-values are Random Variables
 author: Brian Luke
 categories: [seminars]
 tags: [BUF, statistics for lunch]

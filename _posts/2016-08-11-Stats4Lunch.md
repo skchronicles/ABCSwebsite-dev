@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Statistics for Lunch: Exploratory Data Analysis"
+series: Statistics for Lunch
+title: Exploratory Data Analysis
 subtitle: A Swiss-Army Knife for Scrutinizing the Data!
 author: Ravi Ravichandran
 categories: [seminars]
