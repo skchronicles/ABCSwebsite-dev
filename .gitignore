@@ -8,3 +8,4 @@ fullcalendar/
 fullcalendar/*
 .Rproj.user/
 *.Rproj
+.Rproj.user
