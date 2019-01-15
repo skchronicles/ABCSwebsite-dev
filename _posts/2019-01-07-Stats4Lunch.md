@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Statistics for Lunch: Linear Regression"
+series: "Statistics for Lunch"
+title: Linear Regression
 subtitle: An intuitive look at least squares regression and its assumptions
 author: Randy Johnson
 categories: [seminars]

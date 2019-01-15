@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Statistics for Lunch: P-hacking"
+series: Statistics for Lunch
+title: P-hacking
 subtitle: How to recognize perpetrators, and how to avoid becoming one yourself
 author: Brian Luke
 categories: [seminars]

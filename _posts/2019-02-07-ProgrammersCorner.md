@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Programmer's Corner: Database Design"
+series: "Programmer's Corner"
+title: Database Design
 author: Uma Mudunuri
 categories: [seminars]
 tags: [BUF, programmers corner]

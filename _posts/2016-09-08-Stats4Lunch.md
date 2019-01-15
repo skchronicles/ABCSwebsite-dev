@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Statistics for Lunch: Power and Sample Size"
+series: Statistics for Lunch
+title: Power and Sample Size
 subtitle: Making the most of variability on a budget
 author: Randy Johnson
 categories: [seminars]

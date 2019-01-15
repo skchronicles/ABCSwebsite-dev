@@ -8,9 +8,15 @@
     {% if post.categories contains "seminars" %}
         {% capture posttime %}{{post.date | date: '%s'}}{% endcapture %}
         {% if posttime > nowunix %}
-            <li>
-                <a href="{{ "/" | absolute_url }}{{ post.url }}">{{ post.date | date: "%-d %B %Y"}}, {{ post.title }}</a>
-            </li>
+            {% if post.series == null %}
+                <li>
+                    <a href="{{ "/" | absolute_url }}{{ post.url }}">{{ post.date | date: "%-d %B %Y"}}, {{ post.title }}</a>
+                </li>
+            {% else %}
+                <li>
+                    <a href="{{ "/" | absolute_url }}{{ post.url }}">{{ post.date | date: "%-d %B %Y"}}, {{ post.series }}: {{ post.title }}</a>
+                </li>
+            {% endif %}
         {% endif %}
     {% endif %}
     {% endfor %}
