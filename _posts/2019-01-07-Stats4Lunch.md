@@ -12,6 +12,6 @@ project: statistics4lunch
 videoId: 190107
 ---
 
-In this presentation we will explore least squares regression using an intuitive graphical approach. We will also review the assumptions made in linear regression, how to diagnose violations of assumptions, and what to do to fix problems with linear regression models.
+In this presentation we will explore least squares regression using an intuitive graphical approach. We will also review the assumptions made in linear regression, how to diagnose violations of assumptions, and what to do to fix problems with linear regression models. See our [GitHub repo](https://github.com/abcsFrederick/LinearRegression) for the code used to generate the slides.
 
 {% include googleDrivePlayer.html project=page.project id=page.videoId %}
