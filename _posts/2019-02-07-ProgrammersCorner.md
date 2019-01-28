@@ -5,7 +5,7 @@ title: Database Design
 author: Uma Mudunuri and Anney Che
 categories: [seminars]
 tags: [BUF, programmers corner]
-location: Bldg 549 Room B or [WebEx](https://cbiit.webex.com/cbiit/j.php?MTID=maaa477c0a365f5eb9fa07dcdb913200a)
+location: Bldg 549 Room B or <a href="https://cbiit.webex.com/cbiit/j.php?MTID=maaa477c0a365f5eb9fa07dcdb913200a">WebEx</a>
 time: 12 - 1 PM
 ---
 
