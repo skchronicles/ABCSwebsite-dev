@@ -10,7 +10,7 @@ ABCS provides bioinformatics, mathematical simulation and modeling, image analys
     {% for post in site.posts %}
     {% if post.categories contains "vignettes"%}
         <li>
-            <a href="{{ "/" | absolute_url }}{{ post.url }}">{{ post.title }}</a>
+            <a href="{{ absolute_url }}{{ post.url }}">{{ post.title }}</a>
         </li>
     {% endif %}
     {% endfor %}
