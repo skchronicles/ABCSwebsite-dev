@@ -27,5 +27,5 @@
 * [TechDev and Journal Club]({{ "/" | absolute_url }}CCBRseminars)
 * [Bioinformatics User Forum]({{ "/" | absolute_url }}BUF)
     * [Statistics for Lunch]({{ "/" | absolute_url }}Stats4Lunch)
-    * Programmer's Corner
+    * [Programmer's Corner]({{ "/" | absolute_url }}ProgrammersCorner)
     * HPC Special Interest Group
