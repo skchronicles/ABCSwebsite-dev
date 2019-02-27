@@ -1,4 +1,4 @@
-# Seminars
+# Events
 
 ## Upcoming
 
