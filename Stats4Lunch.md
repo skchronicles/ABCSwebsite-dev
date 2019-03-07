@@ -8,7 +8,7 @@
         {% capture posttime %}{{ post.date | date: '%s' }}{% endcapture %}
         {% if posttime < nowunix %}
             <li>
-                <a href="{{ post.url }}">{{ post.date | date: "%-d %B %Y"}}, {{ post.title }}</a>
+                <a href="{{ site.baseurl }}{{ post.url }}">{{ post.date | date: "%-d %B %Y"}}, {{ post.title }}</a>
             </li>
         {% endif %}
     {% endif %}

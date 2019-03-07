@@ -10,11 +10,11 @@
         {% if posttime > nowunix %}
             {% if post.series == null %}
                 <li>
-                    <a href="{{ post.url }}">{{ post.date | date: "%-d %B %Y"}}, {{ post.title }}</a>
+                    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.date | date: "%-d %B %Y"}}, {{ post.title }}</a>
                 </li>
             {% else %}
                 <li>
-                    <a href="{{ post.url }}">{{ post.date | date: "%-d %B %Y"}}, {{ post.series }}: {{ post.title }}</a>
+                    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.date | date: "%-d %B %Y"}}, {{ post.series }}: {{ post.title }}</a>
                 </li>
             {% endif %}
         {% endif %}
@@ -24,8 +24,8 @@
 
 ## Previous
 
-* [TechDev and Journal Club]({{ "/" | absolute_url }}CCBRseminars)
-* [Bioinformatics User Forum]({{ "/" | absolute_url }}BUF)
-    * [Statistics for Lunch]({{ "/" | absolute_url }}Stats4Lunch)
-    * [Programmer's Corner]({{ "/" | absolute_url }}ProgrammersCorner)
+* [TechDev and Journal Club]({{ site.baseurl }}/CCBRseminars)
+* [Bioinformatics User Forum]({{ site.baseurl }}/BUF)
+    * [Statistics for Lunch]({{ site.baseurl }}/Stats4Lunch)
+    * [Programmer's Corner]({{ site.baseurl }}/ProgrammersCorner)
     * HPC Special Interest Group
