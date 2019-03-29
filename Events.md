@@ -28,4 +28,5 @@
 * [Bioinformatics User Forum]({{ site.baseurl }}/BUF)
     * [Statistics for Lunch]({{ site.baseurl }}/Stats4Lunch)
     * [Programmer's Corner]({{ site.baseurl }}/ProgrammersCorner)
+    * [Machine Learning Roundup]({{ site.baseurl }}/MLR)
     * HPC Special Interest Group
